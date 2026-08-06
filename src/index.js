@@ -10,7 +10,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Blog from './components/Blog';
 import Account from './components/Account';
-import Login from './components/Login';
+
+import Vidu1 from './components/Bai11/Vidu1';
+import Login from './components/Bai11/Login';
+import Vidu2 from './components/Bai11/Vidu2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,9 +22,11 @@ root.render(
     <Router>
       <App>
         <Routes>
-          <Route path="/" element={<Blog />} />
+          <Route path="/" element={<Blog name="Quoc"/>} />
           <Route path="/account" element={<Account />} />
-          <Route path="/login" element={<Login />} />
+
+          <Route path="/Vidu1" element={<Vidu1 />} />
+          <Route path="/Vidu2" element={<Vidu2 />} />
         </Routes>
       </App>
     </Router>

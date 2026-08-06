@@ -73,11 +73,12 @@ const blogPosts = [
   }
 ];
 
-const BlogSection = () => {
+const BlogSection = (props) => {
   const [priceRange, setPriceRange] = useState(250);
 
   return (
     <section>
+      <h1>heloo {props.name}</h1>
       <div className="container">
         <div className="row">
           {/* Sidebar */}
