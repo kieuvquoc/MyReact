@@ -11,9 +11,12 @@ import reportWebVitals from './reportWebVitals';
 import Blog from './components/Blog';
 import Account from './components/Account';
 
-import Vidu1 from './components/Bai11/Vidu1';
-import Login from './components/Bai11/Login';
+import Vidu1B11 from './components/Bai11/Vidu1';
 import Vidu2 from './components/Bai11/Vidu2';
+
+import Vidu1B12 from './components/Bai12/Vidu1';
+
+import A from './components/Bai31/A';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,8 +28,11 @@ root.render(
           <Route path="/" element={<Blog name="Quoc"/>} />
           <Route path="/account" element={<Account />} />
 
-          <Route path="/Vidu1" element={<Vidu1 />} />
+          <Route path="/Vidu1B11" element={<Vidu1B11 />} />
           <Route path="/Vidu2" element={<Vidu2 />} />
+          <Route path="/Vidu1B12" element={<Vidu1B12 />} />
+          <Route path="/Abai31" element={<A />} />
+
         </Routes>
       </App>
     </Router>
