@@ -13,9 +13,12 @@ import Account from './components/Account';
 
 import Vidu1B11 from './components/Bai11/Vidu1';
 import Vidu2 from './components/Bai11/Vidu2';
-
 import Vidu1B12 from './components/Bai12/Vidu1';
-
+import ViduB13 from './components/Bai13/Vidu'
+import ViduB15 from './components/Bai15/Vidu'
+import ViduB16 from './components/Bai16/Vidu'
+import RegisViduB32 from './components/Bai32/RegisVidu'
+import LoginViduB32 from './components/Bai32/LoginVidu'
 import A from './components/Bai31/A';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -32,7 +35,13 @@ root.render(
           <Route path="/Vidu2" element={<Vidu2 />} />
           <Route path="/Vidu1B12" element={<Vidu1B12 />} />
           <Route path="/Abai31" element={<A />} />
+          <Route path="/ViduB13" element={<ViduB13 />} />
+          <Route path="/ViduB15" element={<ViduB15 />} />
+          <Route path="/ViduB16" element={<ViduB16 />} />
+          <Route path="/RegisViduB32" element={<RegisViduB32 />} />
+          <Route path="/LoginViduB32" element={<LoginViduB32 />} />
 
+          
         </Routes>
       </App>
     </Router>
