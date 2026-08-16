@@ -17,6 +17,9 @@ import Vidu1B12 from './components/Bai12/Vidu1';
 import ViduB13 from './components/Bai13/Vidu'
 import ViduB15 from './components/Bai15/Vidu'
 import ViduB16 from './components/Bai16/Vidu'
+import AxiosEx from './components/Bai18/AxiosEx'
+import Vidu1A from './components/Bai18/Vidu1A'
+import Vidu2A from './components/Bai18/Vidu2A'
 import RegisViduB32 from './components/Bai32/RegisVidu'
 import LoginViduB32 from './components/Bai32/LoginVidu'
 import A from './components/Bai31/A';
@@ -38,6 +41,9 @@ root.render(
           <Route path="/ViduB13" element={<ViduB13 />} />
           <Route path="/ViduB15" element={<ViduB15 />} />
           <Route path="/ViduB16" element={<ViduB16 />} />
+          <Route path="/AxiosEx" element={<AxiosEx />} />
+          <Route path="/Vidu1A" element={<Vidu1A />} />
+          <Route path="/Vidu2A" element={<Vidu2A />} />
           <Route path="/RegisViduB32" element={<RegisViduB32 />} />
           <Route path="/LoginViduB32" element={<LoginViduB32 />} />
 
